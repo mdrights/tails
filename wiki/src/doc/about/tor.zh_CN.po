@@ -7,28 +7,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-25 15:24+0100\n"
-"PO-Revision-Date: 2017-08-01 14:23+0000\n"
-"Last-Translator: Tails Developers <amnesia@boum.org>\n"
-"Language: pt\n"
+"PO-Revision-Date: 2017-10-10 03:49+0000\n"
+"Last-Translator: MDrights <mdrights@tutanota.de>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language-Team: \n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 1.8.12\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Why does Tails use Tor?\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"为何 Tails 要使用 Tor?\"]]\n"
 
 #. type: Plain text
 msgid "Tails uses Tor because it is the best available anonymity network."
-msgstr ""
+msgstr "Tails 用 Tor 是因为它是最好的可用的匿名网络。"
 
 #. type: Title =
 #, no-wrap
 msgid "Anonymity enforcement\n"
-msgstr ""
+msgstr "隐匿执行力\n"
 
 #. type: Plain text
 msgid ""
@@ -36,12 +36,14 @@ msgid ""
 "a fundamental assumption of Tails to force all outgoing traffic to anonymity "
 "networks such as Tor."
 msgstr ""
+"我们想为我们的用户默认就执行最好的安全性。这就是为什么我们要有个基本的预设，"
+"Tails 强制让所有的外出流量都走匿名网络，比如 Tor。"
 
 #. type: Plain text
 msgid ""
 "Over the years Tor has become a big network with a lot of capacity and a "
 "good speed."
-msgstr ""
+msgstr "几年来 Tor 已成为一个有大容量和快速的大型网络了。"
 
 #. type: Plain text
 msgid ""
@@ -51,6 +53,9 @@ msgid ""
 "anonymity. Tor provides anonymity by making it impossible for a single point "
 "in the network to know both the origin and the destination of a connection."
 msgstr ""
+"虚拟私有网络（VPNs) 可以比 Tor 快，但不是匿名网络，因为 VPN 的管理者可以对你"
+"从哪里连过来以及你要连到哪里去 都了如指掌，这就破坏了你的隐匿性。Tor 能提供隐"
+"匿性是指从网络中任一单点都无法知道一个连接的源头和目的地。"
 
 #. type: Plain text
 msgid ""
@@ -59,11 +64,14 @@ msgid ""
 "other hand, the Tor network is formed by over 5000 relays run worldwide by "
 "volunteers."
 msgstr ""
+"当使用 VPN 时，攻击者还可以通过观察VPN服务商那少数的服务器的进入和外出连接来"
+"破坏你的匿名性。而另一方面，Tor 网络是由全世界5000余台由志愿者运营的服务器组"
+"成的网络。"
 
 #. type: Title =
 #, no-wrap
 msgid "User base\n"
-msgstr ""
+msgstr "用户基础\n"
 
 #. type: Plain text
 msgid ""
@@ -71,6 +79,8 @@ msgid ""
 "700&thinsp;000 users connected to Tor daily in 2013. Being adopted by such a "
 "large audience proves its maturity, stability, and usability."
 msgstr ""
+"Tor 是有着最多用户的匿名网络。 在2013年有超过 700,000 用户每天连接 Tor。有这"
+"么大的使用人数证明了它的成熟性，稳定性和易用性。"
 
 #. type: Plain text
 msgid ""
@@ -80,11 +90,14 @@ msgid ""
 "provides stronger anonymity to everyone as it makes it more difficult to "
 "identify or target a specific profile of Tor user. Anonymity loves company."
 msgstr ""
+"对于记者， 执法部门，政府，人权活动人士，商业领袖， 军队，暴力受害者和关注在"
+"线隐私的普通市民，Tor都是同等的使用。这种多样性实际上对每个人都提供了很强的匿"
+"名性，因为这样就更难识别或针对某类特定的 Tor 用户。匿名性喜欢大家一起陪伴。"
 
 #. type: Title =
 #, no-wrap
 msgid "Technical merits and recognition\n"
-msgstr ""
+msgstr "技术优势和认可\n"
 
 #. type: Plain text
 msgid ""
@@ -92,6 +105,8 @@ msgid ""
 "to intensive academic research. It is the anonymity network which benefits "
 "from the most auditing and peer review."
 msgstr ""
+"Tor 跟领先的研究机构合作， 成为密集的学术研究的研究课题。 它是匿名网络中得到"
+"审计和同行评议最多的匿名网络了。"
 
 #. type: Plain text
 msgid ""
@@ -100,6 +115,9 @@ msgid ""
 "Software Foundation](https://www.fsf.org/news/2010-free-software-awards-"
 "announced) to name a few."
 msgstr ""
+"Tor 获得了来自 [电子前哨基金会](https://www.eff.org/awards/pioneer/2012), 和 "
+"[自由软件基金会](https://www.fsf.org/news/2010-free-software-awards-"
+"announced) 等机构的颁奖。"
 
 #. type: Plain text
 msgid ""
@@ -108,28 +126,34 @@ msgid ""
 "com/world/interactive/2013/oct/04/tor-high-secure-internet-anonymity)\" with "
 "\"no contenders for the throne in waiting\"."
 msgstr ""
+"一份来自 NSA 的顶级机密档案显示，Tor 被描述为 “[高安全性，低延迟的匿名网络中"
+"的王者](http://www.theguardian.com/world/interactive/2013/oct/04/tor-high-"
+"secure-internet-anonymityhttp://www.theguardian.com/world/interactive/2013/"
+"oct/04/tor-high-secure-internet-anonymity) ，而\"丛林中还没有伺机的竞争者”。"
 
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"relationship\"></a>\n"
-msgstr ""
+msgstr "<a id=\"relationship\"></a>\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Relationship between Tor and Tails\n"
-msgstr ""
+msgstr "Tor 和 Tails 之间的关系\n"
 
 #. type: Bullet: '  - '
 msgid "The Tor software is made by [The Tor Project](https://torproject.org/)."
 msgstr ""
+"Tor 软件是由 [Tor项目](http://www.theguardian.com/world/interactive/2013/"
+"oct/04/tor-high-secure-internet-anonymity)。"
 
 #. type: Bullet: '  - '
 msgid "The Tor network is run by a worldwide community of volunteers."
-msgstr ""
+msgstr "Tor 网络由世界各地的志愿者社区运营。"
 
 #. type: Bullet: '  - '
 msgid "Tails is a separate project made by a different group of people."
-msgstr ""
+msgstr "Tails 是由另一群人组成的单独的项目。"
 
 #. type: Plain text
 #, no-wrap
@@ -139,6 +163,9 @@ msgid ""
 "that are not covered by its own projects (for example the <span\n"
 "class=\"application\">Tor Browser</span>).\n"
 msgstr ""
+"Tails 是把 Tor 作为默认网络应用的完整的操作系统。\n"
+"Tor 项目推荐他们自己没覆盖到的 Tails 用例 （比如\n"
+"<span class=\"application\"> Tor 浏览器 </span>）。\n"
 
 #. type: Plain text
 msgid ""
@@ -146,3 +173,5 @@ msgid ""
 "other things than accessing the Internet through Tor, for example to work "
 "offline on sensitive documents."
 msgstr ""
+"但很多人用 Tor 时并没用 Tails ，也有很多人用 Tails 时会做用 Tor连接互联网以外"
+"的事情，比如离线处理敏感文档。"

@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails l10n Team\n"
+"POT-Creation-Date: 2017-05-27 23:41+0800\n"
+"PO-Revision-Date: 2017-05-31 18:16+0800\n"
+"Last-Translator: MDrights <mdrights@tutanota.de>\n"
+"Language-Team: Tails Translators <tails-l10n@boum.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Can I hide the fact that I am using Tails?\"]]\n"
+msgstr "[[!meta title=\"我可以隐藏自己正在使用 Tails 吗\"]]\n"
+
+#. type: Plain text
+msgid ""
+"In this context, the term fingerprint refers to what is specific to Tails in "
+"the way it behaves on Internet. This can be used to determine whether a "
+"particular user is using Tails or not."
+msgstr ""
+"在这个情况下，指纹这一用语指节是 Tails 在互联网行为当的特别性。它可以用来决定"
+"是否特定的使用者是否有使用 Tails"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[As explained on our warning page|warning#fingerprint]], when using\n"
+"Tails it is possible to know that you are using Tor. But Tails tries to\n"
+"**make it as difficult as possible to distinguish Tails users from other\n"
+"Tor users**, especially users of <span class=\"application\">Tor Browser</span> outside of Tails. If it is\n"
+"possible to determine whether you are a user of <span class=\"application\">Tor Browser</span> inside or outside of Tails, this\n"
+"provides more information about you and in consequence reduces your\n"
+"anonymity.\n"
+msgstr ""
+"[[如同我们的警告页所解释|warning#fingerprint]]，在使用\n"
+"Tails 是有可能知道你正在使用 Tor.。但 Tails 试图\n"
+"**让它更难以辨识 Tails 使用者与其它\n"
+"Tor 使用者**之间的差异, 尤其是非 Tails 的<span class=\"application\">Tor 浏览器</span> 使用者。它可能决定\n"
+"你是否有无利用Tails 来启动 <span class=\"application\">Tor 浏览器</span> , 这样\n"
+"会提供关于你更多的资讯因而降低了你的\n"
+"匿名性.\n"
+
+#. type: Plain text
+msgid ""
+"This section explains some issues regarding the fingerprint of Tails and how "
+"this could be used to identify you as a Tails user."
+msgstr ""
+"本部份会解释有关 Tails指纹的一些问题以及如何辨识对方是否为 Tails 使用者。"
+
+#. type: Title =
+#, no-wrap
+msgid "For the websites that you are visiting\n"
+msgstr "对你所访问的网站\n"
+
+#. type: Plain text
+msgid ""
+"The websites that you are visiting can retrieve a lot of information about "
+"your browser. That information can include its name and version, window "
+"size, list of available extensions, timezone, available fonts, etc."
+msgstr ""
+"你所访问的网站可以接收一堆关于你所用的浏览器资讯。这些可能包括它的名称和版"
+"本、视窗大多、使用的扩展套件清单、时区以及可用的字型等等资讯。"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"To make it difficult to distinguish Tails users,\n"
+"**<span class=\"application\">Tor Browser</span> in Tails tries to provide the same information as <span class=\"application\">Tor Browser</span> on other operating systems** in\n"
+"order to have similar fingerprints.\n"
+msgstr ""
+"要让 Tails用户难以被辨识出来\n"
+"**<span class=\"application\">Tor 浏览器</span> 试图在不同的作业系统底下的<span class=\"application\">Tor 浏览器</span>提供相似的资讯** 好让\n"
+"它们之间有相似的指纹特征\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Refer to the [[fingerprint section of our list of known issues\n"
+"|support/known_issues#fingerprint]] to know if there are differences\n"
+"between the fingerprints of <span class=\"application\">Tor Browser</span> inside and outside of Tails.\n"
+msgstr ""
+"参考我们的 [[指纹部份已发现的问题列表\n"
+"|support/known_issues#fingerprint]] 来了解是否有差异\n"
+" 有无使用Tails的<span class=\"application\">Tor Browser</span>之间指纹\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Apart from that, **some of the <span class=\"application\">Tor Browser</span> extensions included in Tails are\n"
+"specific to Tails**. More sophisticated\n"
+"attacks can use those differences to distinguish Tails users.\n"
+msgstr ""
+"除了这个, **某些 Tails　底下的<span class=\"application\">Tor 浏览器</span> 延伸套件\n"
+"对Tails有所特别**. 更细致复杂的\n"
+"攻击可以用这些差异来区分 Tails 使用者。\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"For example, Tails includes <span class=\"application\">uBlock\n"
+"Origin</span> which removes advertisements. If an attacker can determine\n"
+"that you are not downloading the advertisements that are included in a\n"
+"webpage, that could help identify you as a Tails user.\n"
+msgstr ""
+"举例来说，Tails 包含 <span class=\"application\">uBlock\n"
+"Origin</span> 它可以移除广告。如果一个攻击者可以猜测\n"
+"因为你没有下载某网页中的广告\n"
+"所以认为你是 Tails 使用者。\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"For the moment, you should consider that **no special care is taken\n"
+"regarding the fingerprint of the [[<span class=\"application\">Unsafe\n"
+"Browser</span>|doc/anonymous_internet/unsafe_browser]]**.\n"
+msgstr ""
+"这时候，你该考虑 **无须特别的照料要作\n"
+"关于不安全的指纹 [[<span class=\"application\">记录\n"
+"浏览</span>|doc/anonymous_internet/unsafe_browser]]**.\n"
+
+#. type: Title =
+#, no-wrap
+msgid "For your ISP or local network administrator\n"
+msgstr "对你的 ISP 或本地的网管者\n"
+
+#. type: Bullet: '  - '
+msgid ""
+"Tor bridges are most of the time a good way of hiding the fact that you are "
+"connecting to Tor to a local observer. If this is important for you, read "
+"our documentation about [[doc/first_steps/startup_options/bridge_mode]]."
+msgstr ""
+"Tor 桥结器是多大数情况下最好的方式来对本地观测者隐瞒你正连到 Tor 的事实。如果"
+"对你来说这很重要，请参考我们所提供的文件 [[doc/first_steps/startup_options/"
+"bridge_mode]]."
+
+#. type: Bullet: '  - '
+msgid ""
+"A Tails system is **almost exclusively generating Tor activity** on the "
+"network. Usually users of <span class=\"application\">Tor Browser</span> on "
+"other operating systems also have network activity outside of Tor, either "
+"from another web browser or other applications. So the proportion of Tor "
+"activity could be used to determine whether a user of <span class="
+"\"application\">Tor Browser</span> is using Tails or not. If you are sharing "
+"your Internet connection with other users that are not using Tails it is "
+"probably harder for your ISP to determine whether a single user is "
+"generating only Tor traffic and so maybe using Tails."
+msgstr ""
+"Tails 系统 **几乎是独家地在网路中制造了Tor 活动 ** 。通常其它作业系统下的"
+"<span class=\"application\">Tor 浏览器</span> 用户也会在 Tor　网路外有其它活"
+"动，不管是来其它另一个网页浏览器或其它应用程式。因此Tor 活动的比重可以被用来"
+"决定是否 <span class=\"application\">Tor  浏览器</span> 用户是否也正在使用"
+"Tails。如果你分享自己的互联网连线给其它的使用者而他们并不使用 Tails，这可能更"
+"难让你的 ISP 来看出单一使用者只用 Tor 传输，因此他正在使用 Tails。"
+
+#. type: Bullet: '  - '
+msgid ""
+"Tails **does not use the entry guards mechanism of Tor**. With the [entry "
+"guard mechanism](https://www.torproject.org/docs/faq#EntryGuards), a Tor "
+"user always uses the same few relays as first hops. As Tails does not store "
+"any Tor information between separate working sessions, it does not store the "
+"entry guards information either. This behaviour could be used to distinguish "
+"Tails users across several working sessions."
+msgstr ""
+"Tails **没有使用Tor的进入防卫机制**。 利用 [进入防卫机制](https://www."
+"torproject.org/docs/faq#EntryGuards),  Tor 用户可以使用相同的一些中继器作为第"
+"一次跳跃。当As Tails 不会储存任何 Tor 不同工作期间的资讯，它也不会储存任何接"
+"入防卫机制的资讯。这样的行为可以被用来区分Tails 用户跨过几个工作期间的行为。"
+
+#. type: Bullet: '  - '
+msgid ""
+"When starting, Tails synchronizes the system clock to make sure it is "
+"accurate. While doing this, if the time is set too much in the past or in "
+"the future, Tor is shut down and started again. This behavior could be used "
+"to distinguish Tails users, especially since this happens every time Tails "
+"starts."
+msgstr ""
+"当启动时，Tails　会同步系统时间来确定其正确性。而这样做，如果时间被设成不是现"
+"在的时刻，Tor 会关闭而再次重启。这样的行为可以用来区分 Tails 用户，尤其是每"
+"次 Tails 重新开始时。"

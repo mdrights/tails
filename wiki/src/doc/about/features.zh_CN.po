@@ -1,0 +1,394 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails l10n Team\n"
+"POT-Creation-Date: 2017-05-27 23:41+0800\n"
+"PO-Revision-Date: 2017-10-08 09:36+0000\n"
+"Last-Translator: MDrights <mdrights@tutanota.de>\n"
+"Language-Team: Tails Translators <tails-l10n@boum.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Features and included software\"]]\n"
+msgstr "[[!meta title=\"特色与包含的软体\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=2]]\n"
+msgstr "[[!toc levels=2]]\n"
+
+#. type: Plain text
+msgid "Tails is based on [[Debian|https://www.debian.org/]] 8 (Jessie)."
+msgstr "Tails是以 [[Debian|https://www.debian.org/]] 8 (Jessie)为基础发展。"
+
+#. type: Title =
+#, no-wrap
+msgid "Included software\n"
+msgstr "包含的软体\n"
+
+#. type: Bullet: '* '
+msgid ""
+"[GNOME](http://www.gnome.org), an intuitive and attractive desktop "
+"environment ([[More...|doc/first_steps/"
+"introduction_to_gnome_and_the_tails_desktop]])"
+msgstr ""
+"[GNOME](http://www.gnome.org), 是一套直观又吸引人的桌面环境 ([[更深入了解...|"
+"doc/first_steps/introduction_to_gnome_and_the_tails_desktop]])"
+
+#. type: Title -
+#, no-wrap
+msgid "Networking\n"
+msgstr "网路\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* [Tor](https://www.torproject.org) with:\n"
+"  - [[stream isolation|contribute/design/stream_isolation]]\n"
+"  - regular, obfs2, obfs3, obfs4, and ScrambleSuit bridges support\n"
+"  - the Onion Circuits graphical frontend ([[More...|doc/anonymous_internet/tor_status#circuits]])\n"
+"* [NetworkManager](http://projects.gnome.org/NetworkManager/) for easy\n"
+"  network configuration ([[More...|doc/anonymous_internet/networkmanager]])\n"
+"* [Tor Browser](https://www.torproject.org/projects/torbrowser.html.en) ([[More...|doc/anonymous_internet/Tor_Browser]]), a web\n"
+"  browser based on [Mozilla Firefox](http://getfirefox.com) and modified to protect your anonymity with:\n"
+"  - [Torbutton](https://www.torproject.org/docs/torbutton/) for anonymity\n"
+"    and protection against evil JavaScript\n"
+"  - all cookies are treated as session cookies by default;\n"
+"  - [HTTPS Everywhere](https://www.eff.org/https-everywhere)\n"
+"    transparently enables SSL-encrypted connections to a great number\n"
+"    of major websites\n"
+"  - [NoScript](http://noscript.net/) to have even more control over JavaScript.\n"
+"  - [uBlock Origin](https://github.com/gorhill/uBlock/) to remove advertisements.\n"
+"* [Pidgin](http://www.pidgin.im/) preconfigured with\n"
+"  [OTR](http://www.cypherpunks.ca/otr/index.php) for Off-the-Record\n"
+"  Messaging ([[More...|doc/anonymous_internet/pidgin]])\n"
+"* [OnionShare](https://onionshare.org/) for anonymous filesharing\n"
+"* [Icedove (Thunderbird)](https://www.mozilla.org/en-US/thunderbird/) email client with [Enigmail](https://www.enigmail.net/) for OpenPGP support ([[More...|doc/anonymous_internet/icedove]])\n"
+"* [Liferea](http://liferea.sourceforge.net/) feed aggregator\n"
+"* [Gobby](http://gobby.0x539.de/trac/) for collaborative text writing\n"
+"* [Aircrack-ng](http://aircrack-ng.org/) for wireless network auditing\n"
+"* [Electrum](https://electrum.org/), an easy-to-use bitcoin client ([[More...|doc/anonymous_internet/electrum]])\n"
+msgstr ""
+"* [Tor](https://www.torproject.org) with:\n"
+"  - [[stream isolation|contribute/design/stream_isolation]]\n"
+"  - regular, obfs2, obfs3, obfs4, and ScrambleSuit bridges support\n"
+"  - the Onion Circuits graphical frontend ([[More...|doc/anonymous_internet/tor_status#circuits]])\n"
+"* [NetworkManager](http://projects.gnome.org/NetworkManager/) for easy\n"
+"  network configuration ([[More...|doc/anonymous_internet/networkmanager]])\n"
+"* [Tor Browser](https://www.torproject.org/projects/torbrowser.html.en) ([[More...|doc/anonymous_internet/Tor_Browser]]), a web\n"
+"  browser based on [Mozilla Firefox](http://getfirefox.com) and modified to protect your anonymity with:\n"
+"  - [Torbutton](https://www.torproject.org/docs/torbutton/) for anonymity\n"
+"    and protection against evil JavaScript\n"
+"  - all cookies are treated as session cookies by default;\n"
+"  - [HTTPS Everywhere](https://www.eff.org/https-everywhere)\n"
+"    transparently enables SSL-encrypted connections to a great number\n"
+"    of major websites\n"
+"  - [NoScript](http://noscript.net/) to have even more control over JavaScript.\n"
+"  - [uBlock Origin](https://github.com/gorhill/uBlock/) to remove advertisements.\n"
+"* [Pidgin](http://www.pidgin.im/) preconfigured with\n"
+"  [OTR](http://www.cypherpunks.ca/otr/index.php) for Off-the-Record\n"
+"  Messaging ([[More...|doc/anonymous_internet/pidgin]])\n"
+"* [OnionShare](https://onionshare.org/) for anonymous filesharing\n"
+"* [Icedove (Thunderbird)](https://www.mozilla.org/en-US/thunderbird/) email client with [Enigmail](https://www.enigmail.net/) for OpenPGP support ([[More...|doc/anonymous_internet/icedove]])\n"
+"* [Liferea](http://liferea.sourceforge.net/) feed aggregator\n"
+"* [Gobby](http://gobby.0x539.de/trac/) for collaborative text writing\n"
+"* [Aircrack-ng](http://aircrack-ng.org/) for wireless network auditing\n"
+"* [Electrum](https://electrum.org/), an easy-to-use bitcoin client ([[More...|doc/anonymous_internet/electrum]])\n"
+
+#. type: Title -
+#, no-wrap
+msgid "Desktop Edition\n"
+msgstr "桌面版本\n"
+
+#. type: Bullet: '* '
+msgid ""
+"[LibreOffice](http://www.libreoffice.org/) ([[More...|doc/"
+"sensitive_documents/office_suite]])"
+msgstr ""
+"[LibreOffice](http://www.libreoffice.org/) ([[更了解...|doc/"
+"sensitive_documents/office_suite]])"
+
+#. type: Bullet: '* '
+msgid ""
+"[Gimp](http://www.gimp.org/) and [Inkscape](https://inkscape.org/) to edit "
+"images ([[More...|doc/sensitive_documents/graphics]])"
+msgstr ""
+"[Gimp](http://www.gimp.org/) 与 [Inkscape](https://inkscape.org/) 为图片编辑"
+"软体 ([[了解更多...|doc/sensitive_documents/graphics]])"
+
+#. type: Bullet: '* '
+msgid "[Scribus](http://www.scribus.net) for page layout"
+msgstr "[Scribus](http://www.scribus.net) 版型编辑"
+
+#. type: Bullet: '* '
+msgid ""
+"GNOME Sound Recorder for recording sound ([[More...|doc/sensitive_documents/"
+"sound_and_video]])"
+msgstr ""
+"GNOME Sound Recorder 可用于录音 ([[了解更多...|doc/sensitive_documents/"
+"sound_and_video]])"
+
+#. type: Bullet: '* '
+msgid ""
+"[Audacity](http://audacity.sourceforge.net/) for recording and editing "
+"sounds ([[More...|doc/sensitive_documents/sound_and_video]])"
+msgstr ""
+"[Audacity](http://audacity.sourceforge.net/) 可录音和编辑音档([[进一步了"
+"解...|doc/sensitive_documents/sound_and_video]])"
+
+#. type: Bullet: '* '
+msgid ""
+"[PiTiVi](http://www.pitivi.org/) for non-linear audio/video editing "
+"([[More...|doc/sensitive_documents/sound_and_video]])"
+msgstr ""
+"[PiTiVi](http://www.pitivi.org/) 为线性影音编辑软体 ([[知道更多...|doc/"
+"sensitive_documents/sound_and_video]])"
+
+#. type: Bullet: '* '
+msgid "[Poedit](http://poedit.sourceforge.net/) to edit .po files"
+msgstr "[Poedit](http://poedit.sourceforge.net/) 用来编辑.po档"
+
+#. type: Bullet: '* '
+msgid ""
+"[Simple Scan](https://launchpad.net/simple-scan) and [SANE](http://www.sane-"
+"project.org/) for scanner support"
+msgstr ""
+"[Simple Scan](https://launchpad.net/simple-scan) 与 [SANE](http://www.sane-"
+"project.org/) 可支援扫描器"
+
+#. type: Bullet: '* '
+msgid "[Brasero](http://projects.gnome.org/brasero/) to burn CD/DVDs"
+msgstr "[Brasero](http://projects.gnome.org/brasero/) 可烧录CD/DVDs"
+
+#. type: Bullet: '* '
+msgid ""
+"[Sound Juicer](http://burtonini.com/blog/computers/sound-juicer) to rip "
+"audio CDs"
+msgstr ""
+"[Sound Juicer](http://burtonini.com/blog/computers/sound-juicer) 可用来截取 "
+"CDs　音轨"
+
+#. type: Bullet: '* '
+msgid ""
+"[Traverso](http://traverso-daw.org/) a multi-track audio recorder and editor"
+msgstr "[Traverso](http://traverso-daw.org/) 是一套多音轨的录音与编辑器"
+
+#. type: Title -
+#, no-wrap
+msgid "Encryption and privacy\n"
+msgstr "加密和隐私\n"
+
+#. type: Bullet: '* '
+msgid ""
+"[[!wikipedia Linux_Unified_Key_Setup desc=\"LUKS\"]] and [[!wikipedia "
+"GNOME_Disks]] to install and use encrypted storage devices, for example USB "
+"sticks ([[More...|doc/encryption_and_privacy/encrypted_volumes]])"
+msgstr ""
+"[[!wikipedia Linux_Unified_Key_Setup desc=\"LUKS\"]] 与 [[!wikipedia "
+"GNOME_Disks]] 用于安装和使用加密的储存设备, 例如 USB 随身碟 ([[进一步了解...|"
+"doc/encryption_and_privacy/encrypted_volumes]])"
+
+#. type: Bullet: '* '
+msgid ""
+"[GnuPG](http://gnupg.org/), the GNU implementation of OpenPGP for email and "
+"data encyption and signing"
+msgstr ""
+"[GnuPG](http://gnupg.org/), 是实施 OpenPGP的 GNU 版本，可用于email 和资料的加"
+"密与签署。"
+
+#. type: Bullet: '* '
+msgid ""
+"[Monkeysign](http://web.monkeysphere.info/monkeysign), a tool for OpenPGP "
+"key signing and exchange"
+msgstr ""
+"[Monkeysign](http://web.monkeysphere.info/monkeysign), 用于OpenPGP 金钥签署与"
+"交换的工具"
+
+#. type: Bullet: '* '
+msgid "[PWGen](http://pwgen-win.sourceforge.net/), a strong password generator"
+msgstr "[PWGen](http://pwgen-win.sourceforge.net/),是高强度密码产生器"
+
+#. type: Bullet: '* '
+msgid ""
+"[Shamir's Secret Sharing](http://en.wikipedia.org/wiki/Shamir"
+"%27s_Secret_Sharing)  using [gfshare](http://www.digital-scurf.org/software/"
+"libgfshare)  and [ssss](http://point-at-infinity.org/ssss/)"
+msgstr ""
+"[Shamir's Secret Sharing](http://en.wikipedia.org/wiki/Shamir"
+"%27s_Secret_Sharing)  使用 [gfshare](http://www.digital-scurf.org/software/"
+"libgfshare)  和 [ssss](http://point-at-infinity.org/ssss/)"
+
+#. type: Bullet: '* '
+msgid ""
+"[Florence](http://florence.sourceforge.net/)  virtual keyboard as a "
+"countermeasure against hardware [keyloggers](http://en.wikipedia.org/wiki/"
+"Keylogger) ([[More...|doc/encryption_and_privacy/virtual_keyboard]])"
+msgstr ""
+"[Florence](http://florence.sourceforge.net/)  是一个虚拟的键盘工具用于对应硬"
+"体易遇上[键盘侧录](http://en.wikipedia.org/wiki/Keylogger) ([[深入了解...|"
+"doc/encryption_and_privacy/virtual_keyboard]])"
+
+#. type: Bullet: '* '
+msgid "[MAT](https://mat.boum.org/) to anonymize metadata in files"
+msgstr "[MAT](https://mat.boum.org/) 可匿名化档案中的元数据"
+
+#. type: Bullet: '* '
+msgid ""
+"[KeePassX](http://www.keepassx.org/) password manager ([[More...|doc/"
+"encryption_and_privacy/manage_passwords]])"
+msgstr ""
+"[KeePassX](http://www.keepassx.org/) 密码管理工具 ([[进一步了解...|doc/"
+"encryption_and_privacy/manage_passwords]])"
+
+#. type: Bullet: '* '
+msgid ""
+"[GtkHash](http://gtkhash.sourceforge.net/) to calculate checksums ([[More...|"
+"doc/encryption_and_privacy/checksums]])"
+msgstr ""
+"[GtkHash](http://gtkhash.sourceforge.net/)用来计算检核总值 ([[进一步了解...|"
+"doc/encryption_and_privacy/checksums]])"
+
+#. type: Bullet: '* '
+msgid ""
+"[Keyringer](https://keyringer.pw/), a command line tool to encrypt secrets "
+"shared through Git ([[More...|doc/encryption_and_privacy/keyringer]])"
+msgstr ""
+"[Keyringer](https://keyringer.pw/)是一个文字指令工具用来透过Git分享的加密资"
+"讯 ([[进一步了解...|doc/encryption_and_privacy/keyringer]])"
+
+#. type: Bullet: '* '
+msgid ""
+"[Paperkey](http://www.jabberwocky.com/software/paperkey/) a command line "
+"tool to back up OpenPGP secret keys on paper ([[More...|doc/advanced_topics/"
+"paperkey]])"
+msgstr ""
+"[Paperkey](http://www.jabberwocky.com/software/paperkey/) 为文字指令工具用于"
+"备份 OpenPGP 密秘金钥到纸本上 ([[了解更多...|doc/advanced_topics/paperkey]])"
+
+#. type: Plain text
+msgid ""
+"The full packages list can be found in the [BitTorrent files download "
+"directory](https://tails.boum.org/torrents/files/) (look for files with the "
+"`.packages` extension)."
+msgstr ""
+"完整的包装清单放在[BitTorrent 档案下载目录](https://tails.boum.org/torrents/"
+"files/) (找副档名为 `.packages` 的档案)。"
+
+#. type: Title =
+#, no-wrap
+msgid "Additional software\n"
+msgstr "其它软体\n"
+
+#. type: Plain text
+msgid ""
+"You can [[install additional software|doc/advanced_topics/"
+"additional_software]] in Tails: all software packaged for Debian is "
+"installable in Tails."
+msgstr ""
+"你可以在Tails[[安装其它软体|doc/advanced_topics/additional_software]] : 任何"
+"用于 Debian的套件包都可安装于 Tails."
+
+#. type: Title =
+#, no-wrap
+msgid "Additional features\n"
+msgstr "其它特色功能\n"
+
+#. type: Bullet: '* '
+msgid ""
+"automatic mechanism to [[upgrade a USB stick or a SD card|doc/first_steps/"
+"upgrade]] to newer versions"
+msgstr ""
+"自动化机制 [[自USB 随身碟或SD卡进行升级|doc/first_steps/upgrade]] 至新版本"
+
+#. type: Bullet: '* '
+msgid ""
+"can be run as a virtualized guest inside [VirtualBox](http://www.virtualbox."
+"org/) ([[More...|doc/advanced_topics/virtualization]])"
+msgstr ""
+"可在 [VirtualBox](http://www.virtualbox.org/)底下利用虚拟访客执行([[深入了"
+"解...|doc/advanced_topics/virtualization]])"
+
+#. type: Bullet: '* '
+msgid ""
+"[[customization|contribute/customize]] (e.g. to add a given missing piece of "
+"software) is relatively easy: one may [[contribute/build]] a custom Amnesic "
+"Incognito Live System in about one hour on a modern desktop computer"
+msgstr ""
+"[[自定|contribute/customize]] (例如新增一个未包含的软体 ) 相对容易: 用户可以"
+"[[contribute/build]] 在一小时左右在大多数电脑中自定一个失忆隐身的自生系统。"
+
+#. type: Bullet: '* '
+msgid ""
+"64-bit PAE-enabled kernel with NX-bit and SMP support on hardware that "
+"supports it"
+msgstr ""
+"可执行64-bit 实体位置延伸 PAE 的核心 kernel 与 NX-bit以及支援对称多处理 SMP "
+"的硬体。"
+
+#. type: Bullet: '* '
+msgid "Some basic [[doc/first_steps/accessibility]] features"
+msgstr "一些基本 [[doc/first_steps/accessibility]]功能"
+
+#. type: Bullet: '* '
+msgid "Some [[contribute/design/application_isolation]] with AppArmor"
+msgstr "有AppArmor [[contribute/design/application_isolation]] "
+
+#. type: Bullet: '* '
+msgid ""
+"To prevent cold-boot attacks and various memory forensics, Tails erases "
+"memory on shutdown and when the boot media is physically removed."
+msgstr ""
+"为预防冷开机 cold-boot攻击与各种记忆体鉴识， Tails会在关机或移除开机媒体时抹"
+"除记忆。"
+
+#. type: Title =
+#, no-wrap
+msgid "Multilingual support\n"
+msgstr "多语系支持\n"
+
+#. type: Plain text
+msgid ""
+"When starting Tails, you can choose between a large number of languages, "
+"including Arabic, Azerbaijani, Catalan, Czech, Welsh, Danish, German, Greek, "
+"English, Spanish, Persian, Finnish, French, Croatian, Hungarian, Indonesian, "
+"Italian, Japanese, Khmer, Korean, Latvian, Bokmål, Dutch, Polish, "
+"Portuguese, Russian, Slovak, Slovene, Albanian, Serbian, Swedish, Turkish, "
+"Ukrainian, and Chinese."
+msgstr ""
+"当启动 Tails时，用户可以多种语言包选项，包括 Arabic, Azerbaijani, Catalan, "
+"Czech, Welsh, Danish, German, Greek, English, Spanish, Persian, Finnish, "
+"French, Croatian, Hungarian, Indonesian, Italian, Japanese, Khmer, Korean, "
+"Latvian, Bokmål, Dutch, Polish, Portuguese, Russian, Slovak, Slovene, "
+"Albanian, Serbian, Swedish, Turkish, Ukrainian, and Chinese."
+
+#. type: Plain text
+msgid "The required keyboard input system is automatically enabled."
+msgstr "需要的键盘系统会自行启动"
+
+#. type: Plain text
+msgid ""
+"Some of these languages could not be thoroughly tested as we don't speak "
+"every language in the world. If you find issues using one of the supposedly "
+"supported languages, don't hesitate to [[tell us about it|support]]. E.g. "
+"Tails probably lacks some non-Latin fonts or input systems."
+msgstr ""
+"其中某些语言包并未完整地测试过，毕竟我们也不懂世界上所有的语言。如果你在使用"
+"这些支援语言时发现任何问题，请不要客气立即[[告诉我们|support]]。例如 Tails 可"
+"能尚缺一些非拉丁语系字型的输入系统。"
+
+#. type: Plain text
+msgid ""
+"If you wish to make it easier to use Tails for your language speakers, see "
+"the [[translators guidelines|contribute/how/translate]]."
+msgstr ""
+"如果希望能帮助自己母语的使用者更轻松地使用 Tails, 请见 [[译者指南|contribute/"
+"how/translate]]来协助在地化。"
