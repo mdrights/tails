@@ -371,6 +371,9 @@ msgid ""
 "attacks targeted at **a specific server**, and especially those among its users "
 "who happen to use Tor."
 msgstr ""
+"一方面，Tor 通过提供匿名性让**针对某个特定的人**的中间人攻击变得很困难，这种攻击方式采用含糊的SSL证书。"
+"但另一方面，Tor 使得运行了出口节点的个人或组织能执行大规模的中间人攻击，或发起对**特定服务器**的攻击，"
+"尤其是那些刚好流经这台服务器的Tor用户。"
 
 #. type: Plain text
 #, no-wrap
@@ -382,11 +385,17 @@ msgid ""
 "Project: Detecting Certificate Authority compromises and web browser\n"
 "collusion</a>.</p>\n"
 msgstr ""
+"<p class=\"quoted-from\">引自 [[!wikipedia Man-in-the-middle_attack\n"
+"desc=\"Wikipedia: %s\"]], [[!wikipedia\n"
+"Comodo_Group#Certificate_hacking desc=\"Wikipedia: %s\"]] 和 <a\n"
+"href=\"https://blog.torproject.org/blog/detecting-certificate-authority-compromises-and-web-browser-collusion\">Tor\n"
+"项目：检测证书签发机构的漏洞和浏览器\n"
+"的共谋</a>。</p>\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Confirmation attacks\n"
-msgstr ""
+msgstr "确认攻击\n"
 
 #. type: Plain text
 msgid ""
@@ -395,6 +404,8 @@ msgid ""
 "network. That's because if you can see both flows, some simple statistics let "
 "you decide whether they match up."
 msgstr ""
+"Tor 的设计并不防范能同时看到进入Tor网络的和从Tor网络出来的攻击者。"
+"因为如果你能把两股流量都看到，你就能通过一些简单的统计分析来判断它们是否匹配。"
 
 #. type: Plain text
 msgid ""
@@ -402,6 +413,7 @@ msgid ""
 "and the ISP of the destination server (or the destination server itself)  "
 "cooperate to attack you."
 msgstr ""
+"如果你的ISP（或者你的本地网络管理员）与目的地服务器的ISP（或者目的地服务器自己）联合起来攻击你，那就是这种情况。"
 
 #. type: Plain text
 msgid ""
@@ -410,7 +422,7 @@ msgid ""
 "known as end-to-end correlation), where an attacker tries to confirm a "
 "hypothesis by monitoring the right locations in the network and then doing the "
 "math."
-msgstr ""
+msgstr "Tor 会防范流量分析，而攻击者也会尝试去找攻击对象。但 Tor 不能防止流量的核实（也叫做端对端关联），这种情况下攻击者尝试通过观测网络中特定地点的流量并进行一些数学计算，去核实他/她的假设。"
 
 #. type: Plain text
 #, no-wrap
@@ -419,11 +431,14 @@ msgid ""
 "href=\"https://blog.torproject.org/blog/one-cell-enough\">Tor Project: \"One cell\n"
 "is enough to break Tor's anonymity\"</a>.</p>\n"
 msgstr ""
+"<p class=\"quoted-from\">引自 <a\n"
+"href=\"https://blog.torproject.org/blog/one-cell-enough\">Tor 项目： \"一个细胞\n"
+"足以毁掉 Tor 的匿名性\"</a>.</p>\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Tails doesn't encrypt your documents by default\n"
-msgstr ""
+msgstr "Tails 不会默认给你的文档加密\n"
 
 #. type: Plain text
 msgid ""
