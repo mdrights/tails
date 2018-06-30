@@ -447,19 +447,22 @@ msgid ""
 "persistence]].  But Tails provides you with tools to encrypt your documents, "
 "such as GnuPG, or encrypt your storage devices, such as LUKS."
 msgstr ""
+"你存在存储设备上的文档不会默认被加密，除非你把它放在 [[加密卷|doc/first_steps/persistence]]。"
+"但 Tails 提供了加密文档的工具，比如 GnuPG，或加密整个存储设备的工具，如 LUKS。"
 
 #. type: Plain text
 msgid ""
 "It is also likely that the files you may create will contain evidence that they "
 "were created using Tails."
 msgstr ""
+"不过这也可能意味着你创建的这些文件证明了你在使用 Tails。"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "**If you need to access the local hard-disks** of the computer you are using, be\n"
 "conscious that you might then leave trace of your activities with Tails on it.\n"
-msgstr ""
+msgstr "**如果你需要进入你正在使用的电脑的硬盘**，要当心这样你就会在本地硬盘上留下你用Tails的痕迹。\n"
 
 #. type: Plain text
 #, no-wrap
@@ -467,6 +470,8 @@ msgid ""
 "Tails doesn't clear the metadata of your documents for you and doesn't encrypt the Subject: and other headers of your encrypted email messages\n"
 "===========================================================================================\n"
 msgstr ""
+"Tails 并不清除你的文档上的元数据，也不加密邮件的标题栏和其他文件头信息\n"
+"===========================================================================================\n"
 
 #. type: Plain text
 msgid ""
@@ -475,6 +480,8 @@ msgid ""
 "creation of the file, and sometimes even parts of the editing history of the "
 "file, depending on the file format and the software used."
 msgstr ""
+"很多文件格式在文件中放置了隐藏的数据或元数据。Word 或 PDF 文件会存作者名、文件创建日期，有时还有一些文件的"
+"编辑历史，这取决于文件格式以及所使用的软件。"
 
 #. type: Plain text
 msgid ""
@@ -484,6 +491,9 @@ msgid ""
 "f=3&t=328) protocol; it's due to backwards compatibility with the original SMTP "
 "protocol. Unfortunately no RFC standard exists yet for Subject: line encryption."
 msgstr ""
+"还有请注意，你的 OpenPGP 加密邮件并不加密标题和其他的头部行。这不是 Tails 或 "
+"[OpenPGP](http://www.mozilla-enigmail.org/forum/viewtopic.php?f=3&t=328)"
+"协议的缺陷；这是因为要兼容原始的 SMTP协议。不幸的是现在还没有针对标题栏加密的 RFC 标准。"
 
 #. type: Plain text
 msgid ""
@@ -496,6 +506,10 @@ msgid ""
 "cropped or blurred images in which the included EXIF thumbnail still shows the "
 "original picture."
 msgstr ""
+"图像文件格式，像 TIFF或JPEG，在隐藏数据方面大概是最出名了。这些由数码相机或手机"
+"创建的文件，包含一种元数据格式叫 EXIF，能包含照片拍照时的日期、时间、GPS记录、拍"
+"照设备的品牌和序列号，还有原始图像的缩略图。图像处理软件都倾向保留这些元数据不变。"
+"因特网就充满着裁减过的或模糊化的图像，但其中的 EXIF 和缩略图 还是原始图像的。"
 
 #. type: Plain text
 #, no-wrap
@@ -504,11 +518,14 @@ msgid ""
 "Tails' design goal to help you do that. For example, Tails already comes with\n"
 "the [Metadata anonymisation toolkit](https://mat.boum.org/).\n"
 msgstr ""
+"**Tails 并不为你清除文件中的元数据**。然而 Tails 在设计上还是会帮你做这件事的。举例，"
+"Tails 自带一个工具叫 "
+"[元数据匿名化工具箱（MAT）](https://mat.boum.org/).\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Tor doesn't protect you from a global adversary\n"
-msgstr ""
+msgstr "面对全球级别的对手，Tor 也保护不了你\n"
 
 #. type: Plain text
 msgid ""
@@ -518,6 +535,9 @@ msgid ""
 "the network, it would be statistically possible to identify Tor circuits and "
 "thus match Tor users and destination servers."
 msgstr ""
+"所谓全球级别的对手通常指能同时监控网络内所有计算机之间的流量的个人或组织。"
+"比如，他们通过研究网络中不同时间点和形式的通讯，可以在统计学上判断出 Tor回路，进而将"
+"Tor 用户和目的地服务器匹配起来。"
 
 #. type: Plain text
 msgid ""
@@ -525,6 +545,8 @@ msgid ""
 "create a low-latency communication service usable for web browsing, Internet "
 "chat or SSH connections."
 msgstr ""
+"这其实是 Tor初始时做出的一个让步，没去应对这个威胁，为了创建一个低延时的通讯服务"
+"给网页浏览器、网络聊天或 SSH连接。"
 
 #. type: Plain text
 msgid ""
@@ -532,16 +554,19 @@ msgid ""
 "Generation Onion Router](https://svn.torproject.org/svn/projects/design-paper/"
 "tor-design.pdf)\", specifically, \"Part 3. Design goals and assumptions.\""
 msgstr ""
+"想了解更多专业知识请阅读 Tor 设计文档，[《Tor项目：第二代\"洋葱\"路由器》]"
+"(https://svn.torproject.org/svn/projects/design-paper/"
+"tor-design.pdf)。尤其是第三部分：设计目标和预设。"
 
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"identities\"></a>\n"
-msgstr ""
+msgstr "<a id=\"身份\"></a>\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Tails doesn't magically separate your different contextual identities\n"
-msgstr ""
+msgstr "Tails 并没有魔幻地区隔你的不同情境中的身份。\n"
 
 #. type: Plain text
 msgid ""
