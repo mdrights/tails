@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "POT-Creation-Date: 2016-03-07 18:54+0100\n"
-"PO-Revision-Date: 2017-10-19 13:58+0000\n"
+"PO-Revision-Date: 2018-07-01 03:58+0000\n"
 "Last-Translator: MDrights <mdrights@tutanota.de>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: zh_CN\n"
@@ -575,6 +575,9 @@ msgid ""
 "one another. For example hiding your location to check your email and "
 "anonymously publishing a document."
 msgstr ""
+"通常我们不建议在同一个 Tails 会话（即每次启动都算一个会话——译者注）做两种不同的事情，"
+"也不赞成同时用两个不同的情境身份，但你又特别想区分开这两个身份。举例，查邮件和匿名发布一个文档"
+"这两件事必须不在同一次系统启动后进行，才能做到隐匿你的位置且用到不同的情境身份。"
 
 #. type: Plain text
 msgid ""
@@ -587,6 +590,11 @@ msgid ""
 "adversary as described above, it might then also be in a position to do this "
 "correlation."
 msgstr ""
+"首先，因为 Tor 会选择复用相同的回路，比如，在同一个浏览会话里就是用的同一个回路。"
+"因为一个回路中的出口节点既知道目的地服务器（如果用户流量没加密的话连流量内容都知道）是什么"
+"，也知道该回路中上一个节点的地址。如果这两个地址都知道的话就比较容易关联该回路中的"
+"几个网页请求，确定出发出请求的用户了。如果你正在面对如上所说的全球性对手，你可能会"
+"遭受这种关联攻击。"
 
 #. type: Plain text
 msgid ""
@@ -594,6 +602,8 @@ msgid ""
 "applications, information about your session could be leaked. That could reveal "
 "that the same person was behind the various actions made during the session."
 msgstr ""
+"其次，万一在使用 Tails 或其中的软件时出现了安全漏洞或报错，你所在的会话信息会被泄漏。"
+"那你在这趟会话中做过的事都会被关联到是同一个人所为的了。"
 
 #. type: Plain text
 #, no-wrap
@@ -601,6 +611,7 @@ msgid ""
 "**The solution to both threats is to shutdown and restart Tails** every time\n"
 "you're using a new identity, if you really want to isolate them better.\n"
 msgstr ""
+"那么如果你真的想把自己什么隔离好的话，解决方法就是**每换一个身份时都重启 Tails**。\n"
 
 #. type: Plain text
 #, no-wrap
@@ -613,11 +624,19 @@ msgid ""
 "provide a global <span class=\"guilabel\">New Identity</span>\n"
 "feature. **Shutdown and restart Tails instead.**\n"
 msgstr ""
+"正如我们在文档 \n"
+"[[Tor 浏览器|anonymous_internet/Tor_Browser#new_identity]]\n"
+"中解释的那样，它的“**新身份**”功能也不是个很完美的区隔不同情境身份的方法。\n"
+"同时，正如文档 \n"
+"[[FAQ|support/faq#new_identity]] Tails 也不提供全局性的\n"
+"<span class=\"guilabel\">新身份</span>\n"
+"功能。只能**关掉然后重启 Tails**。\n"
+
 
 #. type: Title =
 #, no-wrap
 msgid "Tails doesn't make your crappy passwords stronger\n"
-msgstr ""
+msgstr "Tails 并不能让你的狗屎密码变得更强壮\n"
 
 #. type: Plain text
 msgid ""
@@ -625,6 +644,8 @@ msgid ""
 "computer you're using. But again, **neither or both are magic spells for "
 "computer security**."
 msgstr ""
+"Tor 让你在网上保持匿名；Tails 让你不在电脑上留下痕迹。但再说一遍，**它们都不是什么确保"
+"信息安全的万能药**。"
 
 #. type: Plain text
 #, no-wrap
@@ -634,17 +655,21 @@ msgid ""
 "practices to create better password, you can read [[!wikipedia\n"
 "Weak_password#Examples_of_weak_passwords desc=\"Wikipedia: Weak Passwords\"]].\n"
 msgstr ""
+"如果你用了弱密码，攻击者可以暴力破解，不管你用没用 Tails。想知道你的密码是否是弱密码\n"
+"以及想学习如何设立一个更好的密码，可以阅读：[[!wikipedia\n"
+"Weak_password#Examples_of_weak_passwords desc=\"Wikipedia: Weak Passwords\"]]。\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Tails is a work in progress\n"
-msgstr ""
+msgstr "Tails 的开发还在进行中\n"
 
 #. type: Plain text
 msgid ""
 "Tails, as well as all the software it includes, are continuously being developed "
 "and may contain programming errors or security holes."
 msgstr ""
+"Tails 以及它包含的所有软件，都还在持续开发中，有可能还有错误或安全漏洞。"
 
 #~ msgid ""
 #~ "Vidalia's \"New Identity\" button forces Tor to use new circuits but only for "
