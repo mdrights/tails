@@ -130,16 +130,13 @@ msgid ""
 "running our encrypted mailing list, but still: this key pair is managed in a "
 "less safe way than our signing key."
 msgstr ""
-"Cela signifie que d'autres personnes que les développeurs Tails ont accès à "
-"cette clé secrète et peuvent donc l'utiliser. Les développeurs de Tails leur "
-"font confiance pour faire fonctionner la liste de discussion chiffrée, mais "
-"notez tout de même que cette clé ne bénéficie pas d'un niveau de sécurité "
-"équivalent à celui de la clé de signature."
+"这表示除 Tails 开发者的人们在某种情况下也能使用这个密钥。Tails 开发者给予这些人足够的"
+"信任来运行我们的加密邮件列表，但是：这对密钥在管理上仍没有我们的签名专用密钥来得安全。"
 
 #. type: Title -
 #, no-wrap
 msgid "Key details\n"
-msgstr "Détails de la clé\n"
+msgstr "密钥详情\n"
 
 #. type: Plain text
 #, no-wrap
@@ -161,23 +158,23 @@ msgstr ""
 #. type: Title -
 #, no-wrap
 msgid "How to get the public key?\n"
-msgstr "Comment obtenir la clé publique ?\n"
+msgstr "怎样获取我们的公钥?\n"
 
 #. type: Plain text
 msgid "There are multiple ways to get this OpenPGP public key:"
-msgstr "Il existe différents moyens d'obtenir cette clé publique :"
+msgstr "有这样几种途径获取 OpenPGP 公钥："
 
 #. type: Bullet: '- '
 msgid "download it from this website: [[!tails_website tails-email.key]]"
-msgstr "la télécharger depuis ce site : [[!tails_website tails-email.key]]"
+msgstr "从这个网站下载： [[!tails_website tails-email.key]]"
 
 #. type: Bullet: '- '
 msgid "fetch it from your favourite keyserver"
-msgstr "la prendre sur votre serveur de clés favori"
+msgstr "从你最喜爱的 PGP key 服务器上下载"
 
 #. type: Bullet: '- '
 msgid "send an email to <tails-sendkey@boum.org>."
-msgstr "envoyer un courrier électronique à <tails-sendkey@boum.org>."
+msgstr "发个邮件给： <tails-sendkey@boum.org>."
 
 #. type: Plain text
 #, no-wrap
@@ -187,40 +184,35 @@ msgstr "<a id=\"signing\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Signing key\n"
-msgstr "Clé de signature\n"
+msgstr "签名密钥\n"
 
 #. type: Plain text
 msgid ""
 "This key only has the capability to sign and certify: it has no encryption "
 "subkey."
 msgstr ""
-"Cette clé a uniquement la capacité de signer et de certifier : elle n'a pas "
-"de\n"
-"sous-clé de chiffrement."
+"这个密钥只能用来签名和认证：它没有加密子密钥。\n"
 
 #. type: Plain text
 msgid "Its only purpose is:"
-msgstr "Son seul but est :"
+msgstr "它的唯一目的就是："
 
 #. type: Bullet: '- '
 msgid "to sign Tails released images;"
-msgstr "de signer les versions publiées de Tails ;"
+msgstr "用以给 Tails 发布镜像签名;"
 
 #. type: Bullet: '- '
 msgid ""
 "to certify other cryptographic public keys needed for Tails development."
 msgstr ""
-"de certifier d'autres clés cryptographiques nécessaires pour le "
-"développement de\n"
-"Tails."
+"用来认证其他密码学公钥，用于 Tails 的开发。"
 
 #. type: Plain text
 msgid ""
 "The secret key material will never be stored on an online server or on "
 "systems managed by anyone other than Tails core developers."
 msgstr ""
-"La clé secrète ne sera jamais stockée sur un serveur ou sur un système "
-"administré par quelqu'un d'autre que les développeurs principaux de Tails."
+""
 
 #. type: Title ###
 #, no-wrap
