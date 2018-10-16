@@ -212,12 +212,12 @@ msgid ""
 "The secret key material will never be stored on an online server or on "
 "systems managed by anyone other than Tails core developers."
 msgstr ""
-""
+"密钥是永远不会放在某个在线的服务器上，或非 Tails核心开发者管理的系统上。"
 
 #. type: Title ###
 #, no-wrap
 msgid "Primary key"
-msgstr "Clé primaire"
+msgstr "主密钥"
 
 #. type: Plain text
 #, no-wrap
@@ -239,27 +239,20 @@ msgid ""
 "* Has a revocation certificate split amongst different people.\n"
 "  See the [[details of the mechanism|signing_key_revocation]].\n"
 msgstr ""
-"* Elle n'est pas détenue dans un format utilisable par une seule personne. Elle est\n"
-"  divisée cryptographiquement en utilisant\n"
+"* 它并不由单独一个人所持有，而是以密码学方法拆成几部分，用了这个工具：\n"
 "  [gfshare](http://www.digital-scurf.org/software/libgfshare).\n"
-"* Elle est seulement utilisée hors-ligne, sur un Tails air-gap (isolé physiquement de tout réseau) communiquant avec\n"
-"  le monde extérieur par :\n"
-"  - Branchement du  média flash Tails sur un autre système d'exploitation pour installer Tails\n"
-"    dans un premier temps.\n"
-"  - Branchement d'un autre média amovible sur le Tails air-gap pour envoyer la\n"
-"    clé publique, les stubs de la clé secrète, les parties de la clé maître secrète et ainsi de suite,\n"
-"    vers le monde extérieur.\n"
-"  - Branchement d'un autre média amovible sur le Tails air-gap pour recevoir les paquets\n"
-"    Debian, les clés publiques et ainsi de suite, depuis le monde extérieur.\n"
-"* Elle expire dans moins d'un an. Nous étendrons sa validité autant de\n"
-"  fois que nous le jugerons raisonnable.\n"
-"* Elle a un certificat de révocation divisé entre différentes personnes.\n"
-"  Voir les [[détails de ce mécanisme|signing_key_revocation]].\n"
+"* 它只离线使用，在一个物理隔离的、只通过以下几种方式跟外界通信的 Tails 上："
+"  - 在一个专门用来安装 Tails的机器上插入 Tails 闪存介质（盘）。\n"
+"  - 再在这个物理隔离的 Tails机器插入另一个闪存盘，放入公钥、私钥存根、部分私主密钥，等等，带到外面。\n"
+"  - 再插入其他闪存盘到这个 Tails 机器，导入从外面下载的 Debian软件包、公钥等等。\n"
+"* 它会在一年以内过期。 我们将视情况只要合理的话，我们会多次延长它的有效期。\n"
+"* 它还有个撤回证书，分割成几部份保存在不同的人那里。"
+"  参见 [[这个机制的细节|signing_key_revocation]]。\n"
 
 #. type: Title ###
 #, no-wrap
 msgid "Signing subkeys"
-msgstr "Sous-clés de signature"
+msgstr "对子密钥签名"
 
 #. type: Bullet: '* '
 msgid ""
@@ -268,14 +261,12 @@ msgid ""
 "and that the secret cryptographic material is not directly available to the "
 "operating system using it."
 msgstr ""
-"Stockée sur des smartcards OpenPGP en possession des personnes en ayant "
-"besoin. Les smartcards garantissent que les opérations cryptographiques sont "
-"faites directement sur la smartcard et que le secret cryptographique n'est "
-"pas directement disponible pour le système d'exploitation qui l'utilise."
+"把（子密钥）放在使用者的 OpenPGP 智能卡上。这种智能卡保证了所有加解密操作都在卡内进行，加密材料不会出现在插入"
+"了这个卡的操作系统上。"
 
 #. type: Bullet: '* '
 msgid "Expiration date: same as the primary key."
-msgstr "Date d'expiration : identique à celle de la clé primaire."
+msgstr "有效日期：跟主密钥一致。"
 
 #. type: Plain text
 #, no-wrap
@@ -298,19 +289,18 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "download it from this website: [[!tails_website tails-signing.key]]"
-msgstr "la télécharger depuis ce site : [[!tails_website tails-signing.key]]"
+msgstr "从这个网站下载它： [[!tails_website tails-signing.key]]"
 
 #. type: Bullet: '  - '
 msgid "fetch it from your favourite keyserver."
-msgstr "la prendre sur votre serveur de clés favori."
+msgstr "从你最爱的密钥公共服务器上下载。"
 
 #. type: Plain text
 msgid ""
 "If you already have Tails signing key but download it again, it can update "
 "the list of existing signatures of the key."
 msgstr ""
-"Si vous avez déjà la clé de signature de Tails mais que vous la téléchargez "
-"de nouveau, cela peut mettre à jour la liste des signatures existantes."
+"如果你已经有了 Tails 签名密钥但又下载了一次，它会更新现存的密钥签名的列表。"
 
 #. type: Plain text
 #, no-wrap
