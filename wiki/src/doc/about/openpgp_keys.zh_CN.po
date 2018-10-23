@@ -191,7 +191,7 @@ msgid ""
 "This key only has the capability to sign and certify: it has no encryption "
 "subkey."
 msgstr ""
-"这个密钥只能用来签名和认证：它没有加密子密钥。\n"
+"这个密钥只能用来签名和认证：它没有加密子密钥。"
 
 #. type: Plain text
 msgid "Its only purpose is:"
@@ -310,14 +310,14 @@ msgstr "<a id=\"support\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "User support key\n"
-msgstr "Clé pour l'assistance d'utilisation\n"
+msgstr "用户支持用密钥\n"
 
 #. type: Bullet: '  - '
 msgid ""
 "Use this key to encrypt private support requests sent to [[tails-support-"
 "private@boum.org|about/contact#tails-support-private]]."
 msgstr ""
-"Utilisez cette clé pour chiffrer les demandes d'aide privées adressées à "
+"请用这个密钥来加密你的支持请求并发到："
 "[[tails-support-private@boum.org|about/contact#tails-support-private]]."
 
 #. type: Bullet: '  - '
@@ -325,7 +325,7 @@ msgid ""
 "This same key is used to handle [[*WhisperBack* reports|first_steps/"
 "bug_reporting]]."
 msgstr ""
-"Cette clé est également utilisée pour les rapports envoyés avec "
+"这套密钥也用来处理："
 "[[*WhisperBack*|first_steps/bug_reporting]]."
 
 #. type: Plain text
@@ -349,7 +349,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "download it from this website: [[!tails_website tails-bugs.key]]"
-msgstr "la télécharger depuis ce site : [[!tails_website tails-bugs.key]]"
+msgstr "从这个网站下载 : [[!tails_website tails-bugs.key]]"
 
 #. type: Plain text
 #, no-wrap
@@ -359,15 +359,15 @@ msgstr "<a id=\"press\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Press team key\n"
-msgstr "Clé de l'équipe presse\n"
+msgstr "媒体组用密码\n"
 
 #. type: Bullet: '  - '
 msgid ""
 "Use this key to encrypt private emails sent to [[tails-press@boum.org|about/"
 "contact#tails-press]]."
 msgstr ""
-"Utilisez cette clé pour chiffrer les courriers électroniques privés adressés "
-"à [[tails-press@boum.org|about/contact#tails-press]]."
+"使用这个密钥来跟媒体组通信并发送至："
+"[[tails-press@boum.org|about/contact#tails-press]]."
 
 #. type: Plain text
 #, no-wrap
@@ -388,7 +388,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "download it from this website: [[!tails_website tails-press.key]]"
-msgstr "la télécharger depuis ce site : [[!tails_website tails-press.key]]"
+msgstr "从这个网站下载 : [[!tails_website tails-press.key]]"
 
 #. type: Plain text
 #, no-wrap
@@ -398,15 +398,15 @@ msgstr "<a id=\"accounting\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Accounting team key\n"
-msgstr "Clé de l'équipe comptabilité\n"
+msgstr "会计组用密钥\n"
 
 #. type: Bullet: '  - '
 msgid ""
 "Use this key to encrypt private emails sent to [[tails-accounting@boum.org|"
 "about/contact#tails-acccounting]]."
 msgstr ""
-"Utilisez cette clé pour chiffrer les courriers électroniques privés adressés "
-"à [[tails-accounting@boum.org|about/contact#tails-acccounting]]."
+"使用这个密钥跟会计组通信，发送至："
+"[[tails-accounting@boum.org|about/contact#tails-acccounting]]."
 
 #. type: Plain text
 #, no-wrap
@@ -428,7 +428,7 @@ msgstr ""
 #. type: Bullet: '  - '
 msgid "download it from this website: [[!tails_website tails-accounting.key]]"
 msgstr ""
-"la télécharger depuis ce site : [[!tails_website tails-accounting.key]]"
+"从这个网站下载 : [[!tails_website tails-accounting.key]]"
 
 #. type: Plain text
 #, no-wrap
@@ -441,7 +441,7 @@ msgid ""
 "Mirrors team key\n"
 "===================\n"
 msgstr ""
-"Clé de l'équipe miroirs\n"
+"镜像组用密钥\n"
 "===================\n"
 
 #. type: Bullet: '  - '
@@ -449,8 +449,8 @@ msgid ""
 "Use this key to encrypt private emails sent to [[tails-mirrors@boum.org|"
 "about/contact#tails-mirrors]]."
 msgstr ""
-"Utilisez cette clé pour chiffrer les courriers électroniques privés adressés "
-"à [[tails-mirrors@boum.org|about/contact#tails-mirrors]]."
+"用这个密钥跟镜像组密钥，并发送至："
+"[[tails-mirrors@boum.org|about/contact#tails-mirrors]]."
 
 #. type: Plain text
 #, no-wrap
@@ -471,7 +471,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "download it from this website: [[!tails_website tails-mirrors.key]]"
-msgstr "la télécharger depuis ce site : [[!tails_website tails-mirrors.key]]"
+msgstr "从这个网站下载 : [[!tails_website tails-mirrors.key]]"
 
 #. type: Plain text
 #, no-wrap
@@ -481,15 +481,15 @@ msgstr "<a id=\"sysadmins\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Sysadmins team key\n"
-msgstr "Clé de l'équipe d'administration système\n"
+msgstr "系统管理组用密钥"
 
 #. type: Bullet: '  - '
 msgid ""
 "Use this key to encrypt private emails sent to [[tails-sysadmins@boum.org|"
 "about/contact#tails-sysadmins]]."
 msgstr ""
-"Utilisez cette clé pour chiffrer les courriers électroniques privés adressés "
-"à [[tails-sysadmins@boum.org|about/contact#tails-sysadmins]]."
+"使用这个密钥并发送至："
+"[[tails-sysadmins@boum.org|about/contact#tails-sysadmins]]."
 
 #. type: Plain text
 #, no-wrap
@@ -510,7 +510,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "download it from this website: [[!tails_website tails-sysadmins.key]]"
-msgstr "la télécharger depuis ce site : [[!tails_website tails-sysadmins.key]]"
+msgstr "从这个网站下载 : [[!tails_website tails-sysadmins.key]]"
 
 #~ msgid "[[!tails_website tails-bugs.key desc=\"Download the key\"]]\n"
 #~ msgstr "[[!tails_website tails-bugs.key desc=\"Téléchargez la clé\"]]\n"
