@@ -12,7 +12,7 @@ website of Tails (l10n project for Simplified Chinese)
 ## 如何参与
 
 - 阅读 [Tails 中文翻译小组页面](https://tails.boum.org/contribute/how/translate/team/zh/)
-	- 目前推荐先在 [Tails weblate 站]对**现有**翻译进行 review 和 vote；
+	- 目前推荐先在 [Tails weblate 站](https://translate.tails.boum.org/) 对**现有**翻译进行 review 和 vote；
 	- Tails weblate 上**没有**的翻译推荐通过 git merge 到本repo (之后会 merge 到 Tails repo)。
 	- 用 git 参与 tails 翻译的方法在 [这里](https://tails.boum.org/contribute/how/translate/with_Git/)。
 
