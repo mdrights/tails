@@ -2,7 +2,8 @@
 website of Tails (l10n project for Simplified Chinese)
 ### Tails 網站中文化
 
-**更新**：本项目迁移至 GitLab: [MDrights/Tails](https://gitlab.com/mdrights/tails.git)
+**更新**：  
+本项目迁移至 GitLab: [MDrights/Tails](https://gitlab.com/mdrights/tails.git)，这里将只在旧repo上做些补充。
 
 ## 当前计划
 
